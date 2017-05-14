@@ -1,0 +1,15 @@
+{
+    "name": "omniship/ups",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "omniship/common": "^1.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "servo/fluidxml": "^1.21"
+    },
+    "autoload": {
+        "psr-4": { "Omniship\\Ups\\": "src/" }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
